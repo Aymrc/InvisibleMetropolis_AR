@@ -12,6 +12,18 @@
 		body{
 			background-color: Rgb(46,46,46);
 		}
+		
+		p{
+			color: Rgb(255,255,255);
+			cursor:default;
+		}
+
+		
+		a1{
+			color: Rgb(255,255,255, 0.2);
+		}
+		
+
 	</style>
 	<!-- <link href="style.css" rel="stylesheet"> -->
 </head>
@@ -22,26 +34,32 @@
 <body>
 <!-- TITLE -->
 
-	<p style="margin:auto; font-family:'times new roman'; font-size:8vw; text-align: center; color:white; cursor:default;"> <i> Invisible Metropolis </i> </p>
+	<p style="margin:auto; font-family:'times new roman'; font-size:8vw; text-align: center;"> <i> <a1>Invisible</a1> Metropolis </i> </p>
 
-	<p style="margin:auto; width:35%; text-align:center; font-family:'helvetica light'; font-size:0.55vw; color:white; cursor:default;">by Aymeric Brouez</p>
+	<p style="margin:auto; width:35%; text-align:center; font-family:'helvetica light'; font-size: 0.55vw;">by Aymeric Brouez</p>
 <!-- end TITLE -->
 
 
 <!-- 3D x AR -->
-	<div style="overflow:hidden; margin-top: 1.2vw; float:left; width: 32vw; max-height: 46vw; height: 50vw; cursor:default;"> <p style="margin: 0; text-align: right; vertical-align: text-top; color:white; font-size:1.2vw; font-weight:lighter;">fallow</p> </div>
 	
+	<!-- side text / description -->
+	<div style="overflow:hidden; margin-top: 1.2vw; float:left; width: 32vw; max-height: 46vw; height: 50vw;"> 
+		<p style="margin: 0; text-align: right; vertical-align: text-top; font-size:1.2vw; font-weight:lighter;">fallow circle</p>
+	</div>
+	<!-- end description -->
+	
+
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
 	<model-viewer auto-rotate camera-controls 
 		style="margin: auto; margin-top:1.2vw; max-width:32.5vw; width:50vw; max-height:46vw; height:50vw; background-color: Rgb(255,255,255, 0.1); 
-		--poster-color:#ffffff; --progress-bar-color: solid black; --progress-bar-height:2px; border:none;" 
+		--poster-color:#ffffff; --progress-bar-color: solid white; --progress-bar-height:2px; border:none;" 
 		src="3D/testG.gltf" alt="" ios-src="3D/fender_stratocaster.usdz" magic-leap ar>
 	</model-viewer> 
 
 	<a href="3D/little2.usdz" rel="ar" alt="" style="text-decoration:none;">
-		<p style="font-size:0.4vw; font-family:helvetica; text-align:center; color:white;">(click <b>here</b> to open it in Augmented Reality)</p>
+		<p style="font-size:0.4vw; font-family:helvetica; text-align:center;">(click <b>here</b> to open it in Augmented Reality)</p>
 	</a>
 <!-- end 3D x AR -->
 
@@ -53,10 +71,7 @@
 	<a href="3D/fender_stratocaster.usdz" rel="ar">
 		<img style="display:block ; margin:auto; width:50%;" src="img/Glyph-ARKit-Badge-WithName.png" alt="(just a test)">
 	</a>
--->
 
-
-<!--
 	<a href="model1.html" style="font-size: 8px; font-family:helvetica; text-align:center; color:white;">model 1</a>
 
 	<p style="font-size:5px; font-family:helvetica ; color:white; text-align:center;">This experience was possible thanks to <img src="img/Glyph-ARKit-Badge-WithName-White.png" align="top" style="width: 30px; height: 15px; " alt=""></p>
