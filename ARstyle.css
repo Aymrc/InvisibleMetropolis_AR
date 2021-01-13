@@ -1,0 +1,13 @@
+body{
+	background-color: Rgb(46,46,46);
+}
+		
+p{
+	color: Rgb(255,255,255);
+	cursor:default;
+}
+
+		
+a1{
+	color: Rgb(255,255,255, 0.2);
+}
